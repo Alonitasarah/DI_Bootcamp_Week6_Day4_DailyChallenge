@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="data.php" method="post">
+		Nom d'utilisateur : <input type="text" name="username" placeholder="enter name" required/><br/><br/>
+		Sélectionnez vos couleurs préférées:<br/>
+		rouge<input type="checkbox" name="check_list[]" value="red"/><br/>
+		blue<input type="checkbox" name="check_list[]" value="blue"/><br/>
+		vert<input type="checkbox" name="check_list[]" value="green"/><br/>
+		jaune<input type="checkbox" name="check_list[]" value="yellow"/><br/>
+		rose<input type="checkbox" name="check_list[]" value="pink"/><br/>
+		noir<input type="checkbox" name="check_list[]" value="black"/><br/>
+		blanc<input type="checkbox" name="check_list[]" value="white"/><br/><br/>
+		<input type="submit" name="submit" value="Submit"/><br/>
+	</form>
+</body>
+</html>
